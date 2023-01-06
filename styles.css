@@ -1,31 +1,20 @@
-
 /* kleuren */
-Paars #5722CD;
-Blauw #4845E4;
-Roze #ED4385;
-Zwart #0C0C0C (voor standaard tekst);
-Lichtpaars #F2F0FF (voor de grote zwevende woorden, zoals "hello" en "services") Uitzonderingen:
-                                                                                 Lichtgrijs #F3F6F9 (voor de achtergrond van de projecten)
-Grijs #7A7A7A (voor de service-tegel tekst);
-
-
-
-
+Paars #5722CD:
+Blauw #4845E4:
+Roze #ED4385:
+Zwart #0C0C0C:voor standaard tekst
+Lichtpaars #F2F0FF:
+Lichtgrijs #F3F6F9:
+voor de achtergrond van de projecten:
+Grijs #7A7A7A:
 /*////////////////////////
     Table of Contents
     1. Global Styles
 
  */
-    2. Typography
-    3. Layout
-        3.1 Reusables
-        3.2 Other
-    4. Areas
-        4.1 Header
-        4.2 Introduction
-        etc.
-    5. Media Queries
-////////////////////////*/
+
+/
+/*/
 
 /* ------------------------------- 1. Global Styles -------------------------------- */
 
@@ -35,22 +24,24 @@ Grijs #7A7A7A (voor de service-tegel tekst);
     padding: 0;
     box-sizing: border-box;
 }
+
 /* ------------------------------- 2. Typography ----------------------------------- */
 
 p {
     font-family: 'Roboto', sans-serif;
 }
 
-hi, h2 {
+h1, h2 {
     font-family: 'Merriweather', serif;
 }
 
 /* ------------------------------- 3. Layout --------------------------------------- */
 
+/*position: relative; nog ergens in fietsen, maar waar?*/
 
 
-
-nav { border: 2px dashed orange;
+.navbar  {
+    border: 2px dashed orange;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -59,7 +50,7 @@ nav { border: 2px dashed orange;
     color: #F3F6F9;
 }
 
-ul{
+.navbar ul {
     border: 2px dashed yellow;
     list-style: none;
 
@@ -69,11 +60,11 @@ ul{
     flex-basis: 400px;
 }
 
-li{
+.navbar li {
     border: 2px dashed deeppink;
 }
 
-header{
+header {
     border: 2px dashed orange;
     text-align: center;
     display: flex;
@@ -83,15 +74,19 @@ header{
     justify-content: center;
     font-family: 'Merriweather', serif;
     flex-basis: 400px;
+    padding: 100px 100px;
 }
 
+/*is dit de goeie weg naar een border om header heen bij de padding?*/
 .header-section {
-    border: 2px dashed yellow ;
+    border: 2px dashed yellow;
     list-style: none;
     display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
-button {
+.header-section button {
     background-color: #ED4385;
     color: #F3F6F9;
     padding: 15px 32px;
@@ -109,16 +104,27 @@ button {
 
 /* style the sections*/
 
- ]
+/*SECTION GEDEELTE DEEL 1*/
 
-
+#section1 {
+    border: 2px dashed orange;
+    background-color: #F3F6F9;
+    font-family: 'Roboto', sans-serif;
+    color: #5722CD;
+    font-size: 14px;
+    text-align: center;
 }
-center
+
+#para3 {
+    font-size: 8px;
+}
+
+
+/*SECTION GEDEELTE DEEL 2*/
+
 body {
 
 }
-}
-
 
 
 
@@ -127,45 +133,19 @@ footer {
 }
 
 
-
-
-
-
-
-
-
 /* --------------- 3.1 Reusables ----------------------- */
-
-
-
-
-
-
-
 
 
 /* --------------- 3.2 Other --------------------------- */
 
 
-
-
-
 /* ------------------------------- 4. Areas ---------------------------------------- */
-
-
-
 
 
 /* --------------- 4.1 Header ------------------------- */
 
 
-
-
-
 /* --------------- 4.2 Introduction ------------------- */
-
-
-
 
 
 /* ------------------------------- 5. Media Queries -------------------------------- */
