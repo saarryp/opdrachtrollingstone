@@ -1,4 +1,4 @@
-/* kleuren */
+/* kleuren
 Paars #5722CD:
 Blauw #4845E4:
 Roze #ED4385:
@@ -7,6 +7,8 @@ Lichtpaars #F2F0FF:
 Lichtgrijs #F3F6F9:
 voor de achtergrond van de projecten:
 Grijs #7A7A7A:
+*/
+
 /*////////////////////////
     Table of Contents
     1. Global Styles
@@ -90,38 +92,71 @@ header {
     background-color: #ED4385;
     color: #F3F6F9;
     padding: 15px 32px;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 1;
     text-align: center;
     flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
     font-size: 10px;
     border-radius: 12px;
     width: 250px;
 }
 
-button {
-    text-display: center;
-}
+
 
 /* style the sections*/
 
 /*SECTION GEDEELTE DEEL 1*/
 
-#section1 {
-    border: 2px dashed orange;
+.section1 {
+    border: 2px dashed yellow;
     background-color: #F3F6F9;
     font-family: 'Roboto', sans-serif;
     color: #5722CD;
     font-size: 14px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 100px 100px;
 }
 
-#para3 {
+.para3 {
     font-size: 8px;
 }
 
 
 /*SECTION GEDEELTE DEEL 2*/
 
+
+.section2 {
+    background-color: whitesmoke;
+    color: #0C0C0C;
+    border: 2px dashed orange;
+    padding: 100px 300px;
+    justify-content: center;
+}
+
+blokjeeen  {
+    font-size: 18px;
+    border: 2px dashed yellow;
+    justify-content: flex-start;
+}
+
+blokjetwee {
+    font-size: 18px;
+    border: 2px dashed yellow;
+    justify-content: flex-start;
+}
+
+blokjedrie {
+    font-size: 18px;
+    border: 2px dashed yellow;
+    justify-content: flex-start;
+}
 body {
 
 }
