@@ -40,6 +40,20 @@ h1, h2 {
 /* ------------------------------- 3. Layout --------------------------------------- */
 
 /*position: relative; nog ergens in fietsen, maar waar?*/
+.outer-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 2px dashed orange;
+}
+
+.inner-container {
+    display: flex;
+    flex-basis: 800px;
+    flex-shrink: 1;
+    flex-grow: 0;
+    flex-direction: column;
+}
 
 
 .navbar  {
@@ -112,7 +126,7 @@ header {
 /*SECTION GEDEELTE DEEL 1*/
 
 .section1 {
-    border: 2px dashed yellow;
+    border: 2px dashed orange;
     background-color: #F3F6F9;
     font-family: 'Roboto', sans-serif;
     color: #5722CD;
@@ -136,34 +150,93 @@ header {
     background-color: whitesmoke;
     color: #0C0C0C;
     border: 2px dashed orange;
-    padding: 100px 300px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    flex-grow: 0;
+    text-align: center;
+}
+
+.blokjeeen {
+    font-size: 18px;
+    padding: 100px;
+    border: 2px dashed yellow;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
+}
+img {
+    border: 2px dashed saddlebrown;
+    width: 100%;
+    max-width:800px;
+}
+.image-wrapper: {
+    flex-basis: 150px;
+    flex-grow: 0;
+    flex-shrink: 1;
 }
 
-blokjeeen  {
+
+.blokjetwee {
     font-size: 18px;
     border: 2px dashed yellow;
     justify-content: flex-start;
+    padding: 100px;
 }
 
-blokjetwee {
+.blokjedrie {
     font-size: 18px;
     border: 2px dashed yellow;
     justify-content: flex-start;
+    padding: 100px;
 }
 
-blokjedrie {
-    font-size: 18px;
-    border: 2px dashed yellow;
-    justify-content: flex-start;
-}
-body {
 
+.tekstvelden {
+    border: 2px dashed lawngreen;
+    margin: 20px;
 }
+.drieopeenrijpart1 {
+    border: 2px dashed red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 14px;
+}
+
+.ruimte {
+    border: 2px dashed blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 100px;
+    align-items: flex-start;
+}
+
+.item {
+    border-radius: 2px;
+    border-color: #4845E4;
+    box-shadow: 0 1px 4px;
+    background-color: white;
+    padding: 16px;
+    flex-wrap: wrap;
+    flex-basis: 300px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+
+
+
+
 
 
 
 footer {
+    border: 2px dashed orange;
 
 }
 
