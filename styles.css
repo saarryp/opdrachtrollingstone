@@ -251,14 +251,35 @@ img {
 
 /*SECTIE MET FORMULIER*/
 
+.formulierplezier {
+    border: 2px dotted orange;
+    font-family: Merriweather, sans-serif;
+    background-color: #4845E4;
+    color: #F3F6F9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px 0 50px 0;
+}
+.lettertypeformulier {
+    font-size: 8px;
+}
 
+.bordervoorform {
+    border:2px groove yellow;
+    padding: 100px
+}
 
-
-
-
+.send {
+    background-color:#ED4385;
+}
 footer {
     border: 2px dashed orange;
-
+    background-color: #0C0C0C;
+    color: #F3F6F9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 
